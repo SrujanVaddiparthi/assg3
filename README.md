@@ -9,7 +9,7 @@ This repository implements the Automatic Concept Extraction (ACE) method to eval
   - `ace_run.py`: Main script for executing the ACE method.
   - `ace.py`: Contains the concept discovery implementation.
   - `imagenet_labels.txt`: Labels for the ImageNet dataset.
-  - `results/`: Directory for storing results and discovered concepts.
+  - `results/`: Directory for storing results and discovered concepts. CONTAINS THE TCAV SCORES AND THE FACE_CONCEPTS!
 - **tensorflow_inception_graph.pb**: Pre-trained Inception model graph file.
 - **run_command.txt**: Contains the command to run the ACE method.
 - **preprocessed_images/**: Directory containing preprocessed images for analysis.
