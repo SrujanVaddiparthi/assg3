@@ -1,0 +1,12 @@
+/usr/local/bin/python3.10 ace_run.py \
+  --source_dir '/Users/wangtiles/ExplainableAI_chat_NidhiMaam/assg3/UTKFace_resized' \
+  --working_dir '/Users/wangtiles/ExplainableAI_chat_NidhiMaam/assg3/ACE/results' \
+  --model_to_run 'GoogleNet' \
+  --model_path '/Users/wangtiles/ExplainableAI_chat_NidhiMaam/assg3/ACE/tensorflow_inception_graph.pb' \
+  --labels_path '/Users/wangtiles/ExplainableAI_chat_NidhiMaam/assg3/ACE/imagenet_labels.txt' \
+  --target_class 'face' \
+  --bottlenecks 'mixed4c' \
+  --num_random_exp 20 \
+  --max_imgs 40 \
+  --min_imgs 40 \
+  --num_parallel_workers 4
